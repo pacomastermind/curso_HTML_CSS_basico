@@ -1,12 +1,13 @@
 /*Selector universal*/
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /*CSS general de elemetos HTML*/
 body{
     background-color: #222;
     color: white;
     font-size: 14px;
+    font-weight: 200;
 }
 h1{
     font-size:36px;
@@ -14,17 +15,20 @@ h1{
 h3{
     color: #999;
     font-size:18px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 p{
     text-align: justify;
 }
 cite{
-    font-weight: 600;
+    font-weight: 300;
 }
 /*CSS de clase y de id*/
 .hastag{
     color: #ffc900;
+}
+.greycolor{
+    color: #999;
 }
 #experiencia{
     background-color: white;
