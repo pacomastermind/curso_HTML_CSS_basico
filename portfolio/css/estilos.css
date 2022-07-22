@@ -8,14 +8,17 @@ body{
     color: white;
     font-size: 14px;
     font-weight: 200;
+    margin:0px;
 }
 h1{
     font-size:36px;
+    margin:0;
 }
 h3{
     color: #999;
     font-size:18px;
     font-weight: 300;
+    margin:0;
 }
 p{
     text-align: justify;
@@ -24,11 +27,17 @@ cite{
     font-weight: 300;
 }
 /*CSS de clase y de id*/
+.seccion{
+    padding: 0 50px 0 50px;
+}
 .hastag{
     color: #ffc900;
 }
 .greycolor{
     color: #999;
+}
+#portfolio{
+    border-top: 1px solid #ffc900;
 }
 #experiencia{
     background-color: white;
