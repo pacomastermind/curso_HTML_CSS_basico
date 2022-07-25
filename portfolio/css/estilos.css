@@ -38,6 +38,12 @@ li{
 i{
     font-size: 24px;
 }
+a:link,a:visited{
+    color: white;
+}
+a:hover{
+    color: #ffc900;    
+}
 /*CSS de clase y de id*/
 .seccion{
     padding: 0 50px 0 50px;
