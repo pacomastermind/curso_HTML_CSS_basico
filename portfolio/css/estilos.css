@@ -72,6 +72,9 @@ a:link,a:visited{
 a:hover{
     color: #ffc900;    
 }
+button{
+    border-radius: 10px;
+}
 /*CSS de clase y de id*/
 .seccion{
     padding: 10px 50px 0 50px;
@@ -84,6 +87,8 @@ a:hover{
 }
 #inicio{
     padding-top:65px;
+    min-height: 235px;
+    background-image: url("../imagenes/fondoinicio.png");
 }
 #sobremi{
     clear: both;
@@ -119,6 +124,10 @@ form{
 label{
     color: black;
 }
+input,textarea{
+    border-radius: 5px;
+    border: 1px solid #222;
+}
 .itemform{
     display: table-row;
     padding: 10px;
@@ -131,6 +140,10 @@ label{
 .card{
     width: 250px;
     background-color: #191919;
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 15px 15px 0 0;
 }
 .card h3,.card h4,.card p,.card .masinfo{
     padding: 0 15px;
@@ -163,6 +176,7 @@ label{
     justify-content: space-between;
     min-height: 300px;
     padding-left: 15px;
+    margin-bottom: 15px;
 }
 .infosobremi .masinfo button{
     background-color: #ffc900;
