@@ -101,3 +101,20 @@ a:hover{
 #contacto h1,h3{
     width: 25%;
 }
+/*CSS formulario*/
+form{
+    display: table;
+    width:75%;
+    margin: 0 0 0 auto;
+}
+label{
+    color: black;
+}
+.itemform{
+    display: table-row;
+    padding: 10px;
+}
+.itemform label, input,textarea{
+    display: table-cell;
+    margin-top:10px;
+}
