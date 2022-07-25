@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--MENU-->
-    <div id="menu">
+    <nav>
         <ul>
             <li><a href="#sobremi">sobre mi</a></li>
             <li><a href="#portfolio">portfolio</a></li>
@@ -19,7 +19,7 @@
             <li><a href="#experiencia">skills</a></li>
             <li><a href="#contacto">contactar</a></li>
         </ul>
-    </div>    
+    </nav>    
     <!--Seccion Inicio-->
     <div id="inicio" class="seccion">
         <h1>Luís Martínez</h1>
@@ -35,10 +35,18 @@
     <!--FIN Seccion Inicio-->
     <!--Seccion Sobre mí-->
     <div id="sobremi" class="seccion">
-        <h1>Sobre mí</h1>
-        <img src="./imagenes/about-img_250.png" width="200" alt="">
-        <p>Soy <strong>Luís Martinez</strong> músico de carrera y apasionado de <span>tecnología y la programación</span>. Música y emprendimiento forman parte de la cotidianidad del músico freelance, es un mundo en el que me ha llevado a lo largo de mi carrera a conocer muchos grandes profesionales y maravillosos escenarios. Durante ese periplo se cruzó en mi vida el diseño y desarrollo web, donde se abren nuevas oportunidades de crecimiento combinadas al sector de la prodcución audiovisual.</p>
-        <p>Me defino como una persona creativa y enamorado de lo que hago, donde mi máxima es <cite>"el mundo es un aula maravillosa de aprendizaje continuo"</cite>.</p>
+        <table>
+            <tr>
+                <td rowspan="3"><img src="./imagenes/about-img_250.png" width="200" alt=""></td>
+                <td><h1>Sobre mí</h1></td>
+            </tr>
+            <tr>
+                <td>Soy <strong>Luís Martinez</strong> músico de carrera y apasionado de <span>tecnología y la programación</span>. Música y emprendimiento forman parte de la cotidianidad del músico freelance, es un mundo en el que me ha llevado a lo largo de mi carrera a conocer muchos grandes profesionales y maravillosos escenarios. Durante ese periplo se cruzó en mi vida el diseño y desarrollo web, donde se abren nuevas oportunidades de crecimiento combinadas al sector de la prodcución audiovisual.</td>
+            </tr>
+            <tr>
+                <td>Me defino como una persona creativa y enamorado de lo que hago, donde mi máxima es <cite>"el mundo es un aula maravillosa de aprendizaje continuo"</cite>.</td>
+            </tr>
+        </table>
     </div>
     <!--FIN Seccion Sobre mí-->
     <!--Seccion Inicio-->
@@ -79,8 +87,15 @@
     <div id="contacto" class="seccion">
         <h1>Contacto</h1>
         <h3>Envíame tus dudas</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo iste, hic, error deserunt nisi nobis quasi perspiciatis fuga velit placeat rem maiores incidunt voluptate officiis obcaecati adipisci sit praesentium ipsa?</p>
     </div>
     <!--FIN Experiencia-->
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <li id="inicioImg"><a href="#inicio"><img src="./imagenes/cascos.png" alt="" ></a></li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        </ul>
+    </footer>
+    <!-- FIN FOOTER -->
 </body>
 </html>
