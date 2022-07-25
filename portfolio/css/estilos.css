@@ -26,6 +26,18 @@ p{
 cite{
     font-weight: 300;
 }
+ul{
+    width: 100%;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+i{
+    font-size: 24px;
+}
 /*CSS de clase y de id*/
 .seccion{
     padding: 0 50px 0 50px;
@@ -38,12 +50,16 @@ cite{
 }
 #menu{
     position: fixed;
+    background-color: #222;
     width: 100%;
     height: 55px;
     border-bottom: 1px solid white;
 }
 #inicio{
     padding-top:55px;
+}
+#sobremi{
+    clear: both;
 }
 #portfolio{
     border-top: 1px solid #ffc900;
