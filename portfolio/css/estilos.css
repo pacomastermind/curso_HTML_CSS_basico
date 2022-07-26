@@ -77,13 +77,19 @@ button{
 }
 /*CSS de clase y de id*/
 .seccion{
-    padding: 10px 50px 0 50px;
+    padding: 10px 100px 10px 100px;
 }
 .hastag{
     color: #ffc900;
 }
 .greycolor{
     color: #999;
+}
+.textocentrado{
+    text-align: center;
+}
+.textoizquierda{
+    text-align: left;
 }
 #inicio{
     padding-top:65px;
@@ -99,15 +105,15 @@ button{
 #portfolio{
     border-top: 1px solid #ffc900;
 }
-#portfolio h1{
+#experiencia{
+    background-color: white;
+    color: #222;
+}
+#portfolio h1,#experiencia h1{
     text-align: center;
 }
 #portfolio h3{
     text-align: center;
-}
-#experiencia{
-    background-color: white;
-    color: #222;
 }
 #contacto{
     background-color: #ffc900;
@@ -119,7 +125,10 @@ button{
 form{
     display: table;
     width:75%;
-    margin: 0 0 0 auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 label{
     color: black;
@@ -127,14 +136,22 @@ label{
 input,textarea{
     border-radius: 5px;
     border: 1px solid #222;
+    width: 100%;
+}
+input[type="submit"]{
+    background-color:#222 ;
+    color: white;
 }
 .itemform{
     display: table-row;
     padding: 10px;
 }
-.itemform label, input,textarea{
+.itemform label,.itemform input,.itemform textarea{
     display: table-cell;
     margin-top: 10px;
+}
+.itemform input[type="submit"]{
+    width: 150px;
 }
 /*CSS card*/
 .card{
@@ -169,6 +186,30 @@ input,textarea{
     margin: 0 5px 5px 0;
     border: 1px solid #ffc900;
 }
+/*CSS card experiencia*/
+.cardexp{
+    background-color: #222;
+    border-radius: 15px;
+    color: white;
+    padding: 0 15px;
+}
+.cardexp h2{
+    margin-bottom: 5px;
+}
+.cardexp h3{
+    margin-bottom: 20px;
+}
+.cardexp p{
+    margin-bottom: 20px;
+}
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+.cardexp li{
+    height: 20px;
+}
 /*CSS sobremi*/
 .infosobremi{
     display: flex;
@@ -189,8 +230,16 @@ input,textarea{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:center;
     gap: 30px 30px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+/*CSS gridexp*/
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
 }
 
